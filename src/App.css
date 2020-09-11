@@ -1,6 +1,15 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  user-select: none;
+ }
 
 .App-logo {
   height: 40vmin;
@@ -13,6 +22,8 @@
   }
 }
 
+ 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +34,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+

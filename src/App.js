@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import CharacterCard from './CharacterCard';
-
-const word = "Hello"
 function App() {
+  const word = "Hello";
   return (
-    <div >
-      {Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)}
+    <div className="App">
+      <div>
+        {
+          Array.from(word).map((c, i) => <CharacterCard value={c} key={i} />)
+        }
+      </div>
     </div>
   );
 }
-
 export default App;
