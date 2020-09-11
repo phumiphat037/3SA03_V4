@@ -48,4 +48,9 @@
     transform: rotate(360deg);
   }
 }
+.activeCard {
+  color: red;
+  background: pink;
+ }
+ 
 

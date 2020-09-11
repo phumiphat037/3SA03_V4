@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import CharacterCard from './CharacterCard';
+import WordCard from './WordCard';
 function App() {
   const word = "Hello";
   return (
     <div className="App">
       <div>
         {
-          Array.from(word).map((c, i) => <CharacterCard value={c} key={i} />)
+          <WordCard value="hello"/>
         }
       </div>
     </div>
